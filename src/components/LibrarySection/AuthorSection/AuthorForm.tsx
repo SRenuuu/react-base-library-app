@@ -1,8 +1,6 @@
 import React from "react";
 import {Button, Col, Form, Row} from "react-bootstrap";
 
-// Toast notifications imports
-
 // Main component
 const AuthorForm: React.FC = (props) => {
 
@@ -11,7 +9,7 @@ const AuthorForm: React.FC = (props) => {
             <Col xs={12} sm={10} md={8} lg={12} xl={9}>
                 <Row>
                     <Col xs={12} lg={11} className='form-title align-middle mb-1 pr-0'>
-                        <label>{authorToUpdate === null ? "Create" : "Update"} Author</label>
+                        <label>Create Author</label>
                         <i className='feather-x-circle float-right mt-2'/>
                     </Col>
                 </Row>
@@ -23,11 +21,10 @@ const AuthorForm: React.FC = (props) => {
                                 <Form.Control type="text"
                                               placeholder=""
                                               className="mb-2"
-                                              value={authorName ? authorName : ''}
                                               required
                                 />
                                 <Button className="form-button mt-4 float-right py-1"
-                                        type="submit">{authorToUpdate === null ? "Create" : "Update"}</Button>
+                                        type="submit">Create</Button>
                             </Form.Group>
                         </Form>
                     </Col>

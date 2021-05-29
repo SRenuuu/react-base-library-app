@@ -35,10 +35,5 @@ const Author: React.FC = (props) => {
                         })
                     }
                     />
-                </Col>
-            </Row>
-        </li>
-    )
-}
 
 export default Author;
