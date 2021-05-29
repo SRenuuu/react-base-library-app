@@ -1,6 +1,7 @@
 import React from 'react';
 import AuthorSection from "./AuthorSection/AuthorSection";
 import {Col, Container, Row} from "react-bootstrap";
+import BookSection from "./BookSection/BookSection";
 
 const LibrarySection: React.FC = () => {
     return (
@@ -8,8 +9,7 @@ const LibrarySection: React.FC = () => {
             <Container fluid className="library-section">
                 <Row>
                     <Col>
-                        {/*<BookSection/>*/}
-                        BookSection
+                        <BookSection/>
                     </Col>
                     <Col>
                         <AuthorSection/>
