@@ -9,21 +9,21 @@ $form-input-color: #e0e0e0;
 $form-button-color: #01589d;
 
 /* =============================
-    Author Section CSS
+    Book Section CSS
 ================================ */
 
-.author-section {
-  min-height: 35vh;
+.book-section {
   font-size: 0.8em;
+  min-height: 30vh;
 
-  .author-header {
+  .book-header {
     font-weight: 500;
     font-size: 2.1em;
     color: $header-color;
     border-bottom: 2px solid $header-underline-color;
   }
 
-  .author-list {
+  .book-list {
     .empty-list {
       font-size: 1.3em;
       font-weight: 400;
@@ -45,7 +45,7 @@ $form-button-color: #01589d;
     }
   }
 
-  .add-author {
+  .add-book {
     label {
       font-size: 1.4em;
       font-weight: 500;
@@ -61,7 +61,7 @@ $form-button-color: #01589d;
     }
   }
 
-  .author-form {
+  .book-form {
     .form-title {
       label {
         font-size: 1.9em;
@@ -89,6 +89,18 @@ $form-button-color: #01589d;
         color: $form-input-color;
         border-radius: 0;
         border: 2px solid grey;
+
+      }
+
+      .form-select {
+        color: $form-input-color;
+        border-radius: 0;
+        border: 2px solid grey;
+
+      }
+
+      .form-select > div {
+        border: 0;
       }
 
       .form-button {
@@ -110,28 +122,29 @@ $form-button-color: #01589d;
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
-  .author-section {
+  .book-section {
     font-size: 0.8em;
   }
 }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
-  .author-section {
+  .book-section {
     font-size: 0.8em;
   }
 }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
-  .author-section {
+  .book-section {
     font-size: 0.9em;
+    min-height: 55vh;
 
-    .author-header {
+    .book-header {
       font-size: 2.8em;
     }
 
-    .author-list {
+    .book-list {
       ul {
         li {
           font-size: 1.9em;
@@ -152,7 +165,7 @@ $form-button-color: #01589d;
       }
     }
 
-    .author-form {
+    .book-form {
       .form-title {
         i {
           font-size: 1.9em;
@@ -165,15 +178,16 @@ $form-button-color: #01589d;
 
 // X-Large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
-  .author-section {
+  .book-section {
     font-size: 0.9em;
   }
 }
 
 // XX-Large devices (larger desktops, 1400px and up)
 @media (min-width: 1400px) {
-  .author-section {
+  .book-section {
     font-size: 1em;
   }
 }
+
 

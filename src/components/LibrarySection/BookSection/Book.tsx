@@ -2,11 +2,10 @@ import React from "react";
 import {Col, Row} from "react-bootstrap";
 
 // Action confirmation imports
-import {confirmAlert} from 'react-confirm-alert';
-
+import {confirmAlert} from "react-confirm-alert";
 
 // Main component
-const Author: React.FC = (props) => {
+const Book: React.FC = (props) => {
 
     return (
         <li className='py-2'>
@@ -16,10 +15,10 @@ const Author: React.FC = (props) => {
                 </Col>
                 <Col xs={4} md={3} className='icons text-right pr-0 pr-sm-2 pr-md-3'>
                     <i className='feather-edit text-warning pr-4 pr-lg-3'/>
-                    <i className='feather-trash-2 text-danger pr-3 pr-lg-3' onClick={() =>
-                        confirmAlert({
+                    <i className='feather-trash-2 text-danger pr-3 pr-lg-3' onClick={
+                        () => confirmAlert({
                             title: 'Confirm action',
-                            message: 'Delete the selected author?',
+                            message: 'Delete the selected book?',
                             buttons: [
                                 {
                                     label: 'Yes',
@@ -33,7 +32,11 @@ const Author: React.FC = (props) => {
                                 }
                             ]
                         })
-                    }
-                    />
+                    }/>
+                </Col>
+            </Row>
+        </li>
+    )
+}
 
-export default Author;
+export default Book;
