@@ -1,0 +1,73 @@
+/* =============================
+    Footer Section CSS
+================================ */
+
+.footer-section {
+  font-size: 0.8em;
+  text-align: center;
+  min-height: 20vh;
+  background-color: #ecf0f1;
+
+  .content-1 {
+    font-size: 2em;
+
+    p {
+      font-size: 0.7em;
+    }
+  }
+
+  .content-2 {
+    font-size: 1.2em;
+
+    em {
+      font-weight: 500;
+    }
+  }
+}
+
+.footer-section {
+  font-size: 0.9em;
+
+  .content-2 p.small {
+    font-size: 0.8em;
+  }
+}
+
+/* =============================
+    CSS Media Queries
+================================ */
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .footer-section {
+    font-size: 0.9em;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .footer-section {
+    font-size: 0.9em;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .footer-section {
+    font-size: 1em;
+  }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .footer-section {
+    font-size: 1em;
+  }
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+  .footer-section {
+    font-size: 1.1em;
+  }
+}
