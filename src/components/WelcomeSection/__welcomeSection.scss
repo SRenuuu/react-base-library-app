@@ -1,13 +1,68 @@
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Raleway', sans-serif;
+/* =============================
+    Welcome Section CSS
+================================ */
+
+.welcome-section {
+  font-size: 0.8em;
+
+  .header {
+    font-size: 2.8em;
+    font-weight: 700;
+  }
+
+  .photo-credits {
+    font-size: 1.2em;
+    font-weight: 500;
+  }
+
+  img {
+    width: 100%;
+  }
 }
 
-.welcome-section .welcome-header {
-  font-size: 3.3em;
-  font-weight: 700;
+/* =============================
+    CSS Media Queries
+================================ */
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .welcome-section {
+    font-size: 0.8em;
+  }
 }
 
-.welcome-section .photo-credits {
-  font-size: 1.4em;
-  font-weight: 400;
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .welcome-section {
+    font-size: 0.9em;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .welcome-section {
+    font-size: 0.9em;
+  }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .welcome-section {
+    font-size: 1.2em;
+
+    .header {
+      font-size: 3.2em;
+    }
+  }
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+  .welcome-section {
+    .header {
+      font-size: 3.5em;
+    }
+
+    font-size: 1em;
+  }
 }

@@ -5,7 +5,7 @@ import {Col, Row} from "react-bootstrap";
 import Book from "./Book";
 
 // Data types imports
-import {IBook} from "../../../Types/LibraryDataTypes";
+import {IBook} from "../../../types/LibraryDataTypes";
 
 // Typechecking with PropTypes
 type BookListProps = {
