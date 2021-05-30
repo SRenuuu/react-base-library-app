@@ -2,7 +2,7 @@ import React from "react";
 import {Col, Row} from "react-bootstrap";
 
 // Data types imports
-import {IBook} from "../../../Types/LibraryDataTypes";
+import {IBook} from "../../../types/LibraryDataTypes";
 
 // Action confirmation imports
 import {confirmAlert} from "react-confirm-alert";

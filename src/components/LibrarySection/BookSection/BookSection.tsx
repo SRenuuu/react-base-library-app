@@ -8,7 +8,7 @@ import BookForm from "./BookForm";
 import BookHeader from "./BookHeader";
 
 // Data types imports
-import {IAuthor, IBook} from "../../../Types/LibraryDataTypes";
+import {IAuthor, IBook} from "../../../types/LibraryDataTypes";
 
 // Toast notifications imports
 import {toast} from "react-toastify";
