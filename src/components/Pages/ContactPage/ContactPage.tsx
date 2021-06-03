@@ -1,6 +1,7 @@
 import React from 'react';
 import {Button, Col, Container, Form, Row} from "react-bootstrap";
 
+//Main component
 const ContactPage: React.FC = () => {
     return (
         <>
