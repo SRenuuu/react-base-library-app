@@ -1,8 +1,48 @@
+@import "../../_variables";
 /* =============================
     Contact Page CSS
 ================================ */
 
 .contact-page {
-  font-size: 1.2em;
+  font-size: 1em;
 
+  form {
+    .form-button {
+      font-size: 1.1em;
+      font-weight: 500;
+      line-height: 1.4em;
+      background-color: $form-button-color;
+      border-radius: 8px;
+      padding-left: 1.5em;
+      padding-right: 1.5em;
+    }
+  }
+}
+
+
+/* =============================
+    CSS Media Queries
+================================ */
+
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .contact-page {
+    font-size: 1.1em;
+  }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .contact-page {
+    font-size: 1.1em;
+  }
+}
+
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+  .contact-page {
+    font-size: 1.2em;
+  }
 }

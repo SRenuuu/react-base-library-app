@@ -1,7 +1,7 @@
 import React from 'react';
 import {Button, Col, Container, Form, Row} from "react-bootstrap";
 
-const AboutPage: React.FC = () => {
+const ContactPage: React.FC = () => {
     return (
         <>
             <Container>
@@ -12,30 +12,30 @@ const AboutPage: React.FC = () => {
                         </h1>
                     </Col>
                 </Row>
-                <Row className="mb-5 mt-4 pb-4 contact-page">
+                <Row className="mb-5 mt-4 pb-4 contact-page mx-1">
                     <Col>
                         <Form>
                             <Form.Row className="my-2">
-                                <Form.Group as={Col} controlId="formFName">
+                                <Form.Group as={Col} controlId="formFName" className="mr-1">
                                     <Form.Label>First Name</Form.Label>
-                                    <Form.Control type="text" placeholder="Enter first name"/>
+                                    <Form.Control type="text" placeholder="Enter first name" required/>
                                 </Form.Group>
 
-                                <Form.Group as={Col} controlId="formLName">
+                                <Form.Group as={Col} controlId="formLName" className="ml-1">
                                     <Form.Label>Last Name</Form.Label>
-                                    <Form.Control type="text" placeholder="Enter last name"/>
+                                    <Form.Control type="text" placeholder="Enter last name" required/>
                                 </Form.Group>
                             </Form.Row>
                             <Form.Row className="my-2">
                                 <Form.Group as={Col} controlId="formEmail">
                                     <Form.Label>Email</Form.Label>
-                                    <Form.Control type="email" placeholder="Enter email"/>
+                                    <Form.Control type="email" placeholder="Enter email" required/>
                                 </Form.Group>
                             </Form.Row>
                             <Form.Row className="my-2">
                                 <Form.Group as={Col} controlId="formSubject">
                                     <Form.Label>Subject</Form.Label>
-                                    <Form.Control type="text" placeholder="Enter subject"/>
+                                    <Form.Control type="text" placeholder="Enter subject" required/>
                                 </Form.Group>
                             </Form.Row>
 
@@ -45,7 +45,7 @@ const AboutPage: React.FC = () => {
                                     <Form.Control as="textarea" rows={4}/>
                                 </Form.Group>
                             </Form.Row>
-                            <Button variant="primary" type="submit" className="my-2">
+                            <Button className='form-button mt-3 float-left my-2' type="submit">
                                 Submit
                             </Button>
                         </Form>
@@ -56,4 +56,4 @@ const AboutPage: React.FC = () => {
     );
 };
 
-export default AboutPage;
+export default ContactPage;
