@@ -2,7 +2,7 @@ import React, {FormEvent, useEffect, useState} from "react";
 import {Button, Col, Form, Row} from "react-bootstrap";
 
 // Data types imports
-import {IAuthor} from "../../../types/LibraryDataTypes";
+import {IAuthor} from "../../../../../types/LibraryDataTypes";
 
 // Toast notifications imports
 import {toast} from "react-toastify";

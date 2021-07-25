@@ -6,7 +6,7 @@ import AuthorSection from "./AuthorSection/AuthorSection";
 import BookSection from "./BookSection/BookSection";
 
 // Data types imports
-import {IAuthor} from "../../types/LibraryDataTypes";
+import {IAuthor} from "../../../../types/LibraryDataTypes";
 
 // Toasts and action confirmation imports
 import {ToastContainer} from 'react-toastify';

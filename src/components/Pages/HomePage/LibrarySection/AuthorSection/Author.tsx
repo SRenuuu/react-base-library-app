@@ -2,7 +2,7 @@ import React from "react";
 import {Col, Row} from "react-bootstrap";
 
 // Data types imports
-import {IAuthor} from "../../../types/LibraryDataTypes";
+import {IAuthor} from "../../../../../types/LibraryDataTypes";
 
 // Action confirmation imports
 import {confirmAlert} from 'react-confirm-alert';

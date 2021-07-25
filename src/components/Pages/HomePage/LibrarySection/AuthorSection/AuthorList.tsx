@@ -5,7 +5,7 @@ import {Col, Row} from "react-bootstrap";
 import Author from "./Author";
 
 // Data types imports
-import {IAuthor} from "../../../types/LibraryDataTypes";
+import {IAuthor} from "../../../../../types/LibraryDataTypes";
 
 // Typechecking with PropTypes
 type AuthorListProps = {

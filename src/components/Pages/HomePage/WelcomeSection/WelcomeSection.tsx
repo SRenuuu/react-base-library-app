@@ -2,7 +2,7 @@ import React from 'react';
 import {Col, Image, Row} from "react-bootstrap";
 
 // Image imports
-import libraryPhoto from "../../assets/images/library-photo.webp"
+import libraryPhoto from "../../../../assets/images/library-photo.webp";
 
 // Main component
 const WelcomeSection: React.FC = () => {
@@ -10,7 +10,7 @@ const WelcomeSection: React.FC = () => {
         <>
             <Row className="welcome-section header">
                 <Col>
-                    <h1 className="header text-center my-3">
+                    <h1 className="header text-center mb-3 mt-4">
                         My Library
                     </h1>
                 </Col>

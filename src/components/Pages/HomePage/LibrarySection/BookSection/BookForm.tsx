@@ -7,7 +7,7 @@ import NumberFormat from 'react-number-format';
 import {toast} from "react-toastify";
 
 // Data types imports
-import {IAuthor, IBook, SelectOption} from "../../../types/LibraryDataTypes";
+import {IAuthor, IBook, SelectOption} from "../../../../../types/LibraryDataTypes";
 
 // Typechecking with PropTypes
 type BookFormProps = {

@@ -8,7 +8,7 @@ import AuthorForm from "./AuthorForm";
 import AuthorHeader from "./AuthorHeader";
 
 // Data types imports
-import {IAuthor} from "../../../types/LibraryDataTypes"
+import {IAuthor} from "../../../../../types/LibraryDataTypes"
 
 // Toast notifications imports
 import {toast} from "react-toastify";
