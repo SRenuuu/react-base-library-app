@@ -1,3 +1,5 @@
+[![wakatime](https://wakatime.com/badge/github/SRenuuu/react-base-library-app.svg)](https://wakatime.com/badge/github/SRenuuu/react-base-library-app)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
